@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="msapplication-tap-highlight" content="no">
+		<link rel="stylesheet" href="../../assets/css/common.css" />
+		<link rel="stylesheet" href="../../assets/css/header_common.css" />
+		<link rel="stylesheet" href="../../css/mine/register.css" />
+		<link rel="stylesheet" href="../../assets/css/footer.css" />
+		<script type="text/javascript" src="../../assets/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="../../assets/js/font-size.js"></script>
+		<script type="text/javascript" src="../../assets/js/global_variable.js"></script>
+		<title>注册</title>
+	</head>
+	<body style="background-color: #FFFFFF;">
+		<header>
+			<div class="title_top">
+				<a href="../index/index.html" class="title_top_first">
+					<img src="../../image/mine/return1.png" class="hea_img" />
+				</a>
+				<span class="title_top_center">注册</span>
+			</div>
+		</header>
+		<div class="main">
+			<div class="main_bak_login">
+				<div class="photo_img">
+					<img src='../../image/mine/logo1.png' />
+				</div>
+				<div class="main_infor">
+					<ul class="main_infor_name">
+						<li class="name_li name_input">
+							<input type="number" placeholder="请输入手机号" id="uname" maxlength="11" onkeyup="this.value = this.value.substring(0,11)"/>
+						</li>
+						<li class="name_li name_input">
+							<input type="password" placeholder="请输入密码" id="pwdnew" onkeyup="this.value = this.value.substring(0,18)"/>
+						</li>
+						<li class="name_li name_input">
+							<input type="text" placeholder="请输入验证码" class="yzm" id="phone_codema" />
+							<input type="button" value="发送验证码" id="btn_phonecode" class="btn_yanzhengma" />
+						</li>
+						<li class="name_li name_input">
+							<input type="number" placeholder="请输入邀请码" id="invite_code" />
+						</li>
+					</ul>
+				</div>
+				<p class="fuwutiaokuan">
+					继续注册表示已阅读<span style="color:#fe4848;">《服务条款》</span>
+				</p>
+				<!--输入手机号验证码结束-->
+				<div class="main_btn">
+					<button type="button" class="main_btn_a mian_btn_login" disabled="">
+						注册
+					</button>
+				</div>
+				<p class="loginin_num">
+					<a href="login.html">
+						已有账号？请登录
+					</a>
+				</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/mine/register.js"></script>	
+</html>

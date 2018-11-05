@@ -1,0 +1,323 @@
+.bigDiv{
+    width: 100%;
+    height: 0 auto;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 1rem;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 0.01rem solid #eeeff3;
+}
+.title_top a.title_top_first {
+    width: 32%;
+    height: 0.85rem;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+.title_top a.title_top_first span{
+    font-size: 0.28rem;
+    color: #666666;
+}
+.title_top span {
+    width: 32%;
+    height: 0.88rem;
+    float: left;
+    font-size: 0.34rem;
+    color: #000000;
+}
+
+
+/* 推荐，海报，文章 */
+.allGoods {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 0.88rem;
+
+}
+.wrapper01 {
+    position: relative;
+    height: .78rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: 0.01rem solid #eeeff3;
+    background: #fff;
+}
+.wrapper01 .scroller {
+    position: absolute;
+    background: #fff;
+}
+.wrapper01 .scroller .firstLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 0.86rem;
+}
+.wrapper01 .scroller .secondLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 1.3rem;
+}
+.wrapper01 .scroller .thirdlyLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 0.86rem;
+}
+
+.wrapper01 .scroller li a {
+    color: #666666;
+    margin-right: .86rem;
+}
+.wrapper01 .scroller li.cur a {
+    display: inline-block;
+    width: 0.74rem;
+    height: 0.78rem;
+    color: #fc4949;
+    border-bottom: 0.04rem solid #fc4949;
+}
+
+
+/* 推荐内容 */
+.allGoods_list {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+.allGoods_list ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.allGoods_list ul .information{
+    width: 100%;
+}
+.allGoods_list ul .information .matter{
+    width: 100%;
+    height: 0.66rem;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.allGoods_list ul .information .matter .radical img{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.26rem;
+
+}
+.allGoods_list ul .information .matter .radical .character{
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.66rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+/* 素材----文字 */
+.allGoods_list ul .information .description{
+    width: 6.80rem;
+    font-size: 0.26rem;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    margin-left: 0.26rem;
+    margin-top: 0.5rem;
+   line-height: 0.39rem;
+}
+.allGoods_list ul .information .sign{
+    font-size: 0.26rem;
+    color: #3b5fcd;
+    margin-left: 0.26rem;
+    margin-top: 0.24rem;
+
+}
+.allGoods_list ul .information  .drawing img{
+  width: 3.18rem;
+  height: 5rem;
+  margin-left: 0.26rem;
+  margin-top: 0.3rem;
+}
+.allGoods_list ul .information .finally{
+    width: 100%;
+    height: 0.34rem;
+}
+.allGoods_list ul .information .finally .result{
+    font-size: 0.24rem;
+    color: #999999;
+    float: left;
+    margin-left: 0.26rem;
+    margin-top: 0.46rem;
+}
+.allGoods_list ul .information .finally  .right-result {
+    float: right;
+    margin-right: 0.26rem;
+}
+.allGoods_list ul .information .finally  .right-result a{
+    display: inline-block;
+    width: 1.76rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-radius:0.5rem;
+    border: 0.02rem solid #fc4949; 
+    margin-top: 0.35rem;
+    overflow: hidden;
+    text-align: center;
+
+}
+.allGoods_list ul .information .finally  .right-result a img{
+    width: 0.24rem;
+    height: 0.28rem;
+    float: left;
+    margin-left: 0.17rem;
+    margin-top: 0.13rem;
+}
+.allGoods_list ul .information .finally  .right-result a .sense{
+    font-size: 0.24rem;
+    color: #fc4949;
+    float: left;
+    margin-left: 0.1rem;
+}
+.allGoods_list ul .information .sk{
+    width: 100%;
+    height: 0.2rem;
+    background: #f4f5f9;
+}
+
+
+/* 首页素材第二个样式 */
+.allGoods_list ul .information .specification{
+   font-size: 0.26rem;
+   color: #333333;
+   margin-left: 0.26rem;
+   margin-top: 0.34rem;
+}
+.allGoods_list ul .information .descriptions{
+    width: 6.80rem;
+    font-size: 0.26rem;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    margin-left: 0.26rem;
+    margin-top: 0.2rem;
+   line-height: 0.39rem;
+}
+
+
+/* 首页素材第三个样式 */
+.allGoods_list ul .information .chaining{
+    width: 6.98rem;
+    height: 1rem;
+    margin-left:0.26rem;
+    margin-top: 0.3rem;
+    background: #f4f5f9;
+    overflow: hidden;
+
+}
+.allGoods_list ul .information .chaining img{
+    width: 0.86rem;
+    height: 0.85rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.08rem;
+
+}
+.allGoods_list ul .information .chaining .windFarm{
+    width: 5.31rem;
+    height: 0.70rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    color: #666666;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.14rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.allGoods_list ul .information .fashionSeller{
+    width: 5.8rem;
+    margin-bottom: 0.31rem;
+    margin-left: 0.26rem;
+    overflow: hidden;
+
+}
+.allGoods_list ul .information .fashionSeller img{
+    width: 1.80rem;
+    height: 1.80rem;
+    float: left;
+    margin-left: 0.12rem;
+    margin-top: 0.12rem;
+}
+
+/* qq的转发? */
+.list_content_shop {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.list_content_shop ul {
+    width: 100%;
+    height: auto;
+}
+.list_content_shop li {
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-bottom: 1px solid #eeeff3;
+}
+a.first_a {
+    display: inline-block;
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #333;
+    font-size: 0.3rem;
+}
+.first_a span.title_content {
+    float: left;
+    margin-left: 0.26rem;
+    color: #666666;
+}
+.first_a span.title_content img {
+    width: .68rem;
+    height: .68rem;
+    vertical-align: middle;
+}
+.first_a span.title_content span {
+    margin-left: .22rem;
+    font-size: 0.3rem;
+    color: #666666;
+}
+
+.first_a span.back_span {
+    height: 1.2rem;
+    float: right;
+    line-height: 1.2rem;
+    margin-right: 0.26rem;
+}
+.back_span img {
+    width: 0.14rem;
+    height: 0.26rem;
+}

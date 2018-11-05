@@ -1,0 +1,173 @@
+body{
+    background: #f4f5f9;
+}
+
+/* 头部 */
+.rize{
+    width: 100%;
+    height: 100%;
+
+}
+header {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+.title_top {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 1rem;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
+.title_top a.title_top_first {
+    width: 32%;
+    height: 0.85rem;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+.title_top .hea_img {
+    width: 0.18rem;
+    height: 0.32rem;
+    vertical-align: middle;
+}
+.title_top span {
+    width: 32%;
+    height: 0.88rem;
+    float: left;
+    font-size: 0.34rem;
+}
+/* 搜索 */
+.hunt{
+    width: 100%;
+    height: 0.88rem;
+    position: relative;
+    margin-top: 0.88rem;
+    border-bottom: 0.01rem solid #eeeff3;
+    background: #fff;
+}
+.hunt .vulgarize{
+    height: 0.88rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.a_sousuo {
+    display: inline-block;
+    width: 5.70rem;
+    height: 0.58rem;
+    background: #f4f5f9;
+    border-radius: 0.25rem;
+    margin: 0.16rem 0.32rem 0 1.0rem;
+    line-height: 0.58rem;
+    font-size: 0.24rem;
+    color: #999;
+}
+.a_sousuo span {
+    float: left;
+    margin-left: 0.18rem;
+}
+.content img {
+    vertical-align: middle;
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-left: 1.3rem;
+    margin-top: 0.14rem;
+    float: left;
+}
+.a_sousuo span {
+    float: left;
+    margin-left: 0.18rem;
+}
+
+/* banner */
+img{
+    width: 100%;
+    height: 100%;
+}
+.bigIcon img{
+    width: 100%;
+    height: 3.16rem;
+
+}
+/* banner上的文字 */
+.lucency{
+    position: fixed;
+    width: 100%;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    font-size: 0.26rem;
+    color: #fff;
+    padding-left: 0.18rem;
+    opacity:0.3;
+    background: #333333;
+    top: 4.2rem;
+
+}
+.z{
+    width: 100%;
+    height: 0.2rem;
+    background: #f4f5f9;
+}
+/* 列表 */
+.main_content_ul {
+    width: 100%;
+}
+.main_content_li {
+    width: 100%;
+    height: 1.9rem;
+    background: #ffffff;
+    margin-bottom: 0.1rem;
+}
+.main_content_a {
+    display: inline-block;
+    width: 100%;
+    height:1.9rem;
+}
+.main_content_a_left {
+    width: 1.5rem;
+    height: 1.5rem;
+    float: left;
+}
+.main_content_a_left img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.34rem;
+    border: 0.01rem solid #ebebeb;
+}
+.main_content_a_right {
+    width: 65%;
+    height: 1.9rem;
+    float: left;
+    margin-left: 0.26rem;
+}
+.m_c_a_r_top {
+    display: block;
+    /* height: 0.75rem; */
+    font-size: 0.3rem;
+    color: #333333;
+    margin-top: 0.26rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.m_c_a_r_bottom {
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    margin-top: 0.3rem;
+    font-size: 0.24rem;
+    color: #999999;
+}

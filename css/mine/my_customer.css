@@ -1,0 +1,39 @@
+.main{
+	width: 100%;
+	margin-top: 1.2rem;
+}
+.main_cont{
+	width: 100%;
+	background: #fff;
+}
+.main_cont ul{
+	width: 100%;
+}
+.main_cont ul li{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: .01rem solid #ebebeb;
+	padding: .32rem .26rem;
+	font-size: .28rem;
+}
+.customer_type{
+	float: left;
+	color: #333;
+}
+.customer_number{
+	float: right;
+	color: #666;
+}
+.customer_number i,.customer_number em{
+	color: #fd4848;
+	margin-right: .3rem;
+}
+.customer_number button{
+	width: 1.02rem;
+	height: .5rem;
+	color: #fff;
+	text-align: center;
+	line-height: .5rem;
+	border-radius: .3rem;
+	background: #fd4848;
+}

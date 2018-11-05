@@ -1,0 +1,58 @@
+.main{
+	width: 100%;
+	margin-top: 1.2rem;
+}
+.fillin{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	line-height: 1rem;
+	overflow: hidden;
+	padding: 0 .24rem;
+	font-size: .26rem;
+}
+.fillin input{
+	width: 70%;
+	height: 1rem;
+	border:none;
+	outline: none;
+	line-height: 1rem;
+	color: #333;
+	float: left;
+}
+#save{
+	float: right;
+	width: 1.02rem;
+	height: .5rem;
+	background: #f84949;
+	color: #fff;
+	line-height: .5rem;
+	border-radius: .3rem;
+	margin-top: .1rem;
+	margin-top: .25rem;
+}
+/*修改提示文字的颜色*/
+
+input::-webkit-input-placeholder { /* WebKit browsers */ 
+
+color: #666; 
+
+} 
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+
+color: #666; 
+
+} 
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+
+color: #666; 
+
+} 
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+
+color: #666; 
+
+}

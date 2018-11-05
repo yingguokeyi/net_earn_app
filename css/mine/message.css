@@ -1,0 +1,92 @@
+.main{
+	width: 100%;
+	margin-top: 1.2rem;
+}
+.main_cont{
+	width: 100%;
+}
+.message_title{
+	width: 100%;
+	height: .8rem;
+	line-height: .8rem;
+	background: #fff;
+	margin-bottom: .2rem;
+}
+.message_title ul{
+	width: 100%;
+	overflow: hidden;
+}
+.message_title ul li{
+	width: 50%;
+	text-align: center;
+	float: left;
+	font-size: .26rem;
+}
+.message_a{
+	display: inline-block;
+	width: 100%;
+	color: #666;
+}
+a.tabhover{
+	color: #fd4848;
+}
+.message_line{
+	width: .74rem;
+	height: .04rem;
+	background: #fd4848;
+	margin-left: 1.46rem;
+	display: none;
+}
+.message_txt{
+	width: 100%;
+	background: #fff;
+}
+.message_txt ul li{
+	width: 100%;
+	overflow: hidden;
+	padding: .4rem .26rem;
+}
+.txt_left{
+	width: 75%;
+	float: left;
+}
+.left_img{
+	width: .8rem;
+	height: .8rem;
+}
+.left_img img{
+	width: 100%;
+}
+.left_matter{
+	width: 80%;
+	margin-left: 1rem;
+	margin-top: -.8rem;
+}
+.left_matter span:nth-child(1){
+	width: 100%;
+	font-size: .26rem;
+	color: #333;
+	text-overflow:ellipsis;/*表示文本超出用省略号代替*/
+
+	white-space:nowrap;/*表示文本不换行；*/
+
+	overflow:hidden;/*表示超出隐藏；*/
+}
+.left_matter span:nth-child(2){
+	width: 100%;
+	font-size: .22rem;
+	color: #999;
+	margin-top: .17rem;
+	text-overflow:ellipsis;/*表示文本超出用省略号代替*/
+
+	white-space:nowrap;/*表示文本不换行；*/
+
+	overflow:hidden;/*表示超出隐藏；*/
+}
+.txt_right{
+	width: 25%;
+	float: right;
+	font-size: .22rem;
+	color: #999;
+	text-align: right;
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*公共*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,body,section,header,footer,div,p,a,span,img,ul,li,i,dl,dt,dd,textarea,select,strong,button,form,font{
+	margin: 0;
+	padding: 0;
+	border:0;
+	list-style:none;
+	font-style:normal;
+	font-family: PingFangSC-Regular,Helvetica,"Droid Sans",Arial,sans-serif;
+	}
+body{
+	width: 100%;
+	background: none;
+	-ms-touch-action: none; /*禁用IE触控效果*/
+	background-color: #f9f9f9;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+a:active{
+
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+em,i{
+    font-style: normal;
+}
+span{
+  display: inline-block;
+}
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+input,button{
+	outline: none;
+}
+::-webkit-search-cancel-button { display: none; }
+/*底部增加的class样式,状态为选中的状态*/
+.footer_ul a.style {
+    color: #fc4949;
+}

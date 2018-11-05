@@ -1,0 +1,40 @@
+/*底部*/
+footer{
+	width: 100%;
+    height: 0.97rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    border-top:1px solid #f3f6f5;
+}
+footer ul{
+	width: 100%;
+    height: 0.97rem;
+}
+footer li{
+	width: 25%;
+    height: 0.97rem;
+    line-height: 0.15rem;
+    font-size: 0.28rem;
+    text-align: center;
+    float: left;
+}
+footer a{
+	display: inline-block;
+	width: 100%;
+	height: 0.97rem;
+	font-size: 0.24rem;
+	color: #666;
+	line-height: 0.3rem;
+}
+.footer_span{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 0.05rem;
+}
+.footer_span img{
+	width: 100%;
+	height: 100%;
+}

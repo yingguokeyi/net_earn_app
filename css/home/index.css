@@ -1,0 +1,484 @@
+.bigDiv{
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9;
+}
+
+/* 搜索，轮播 */
+.cephalic{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    position: relative;
+}
+/* 搜索部分 */
+.hunt{
+    height: 0.88rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+   
+}
+
+.a_sousuo {
+    display: inline-block;
+    width: 5.70rem;
+    height: 0.58rem;
+    background: #f4f5f9;
+    border-radius: 0.25rem;
+    /* float: left;  */
+    /* margin-left: 0.56rem; */
+    margin: 0.16rem 0.32rem 0 1.0rem;
+    line-height: 0.58rem;
+    font-size: 0.24rem;
+    color: #999;
+}
+
+.a_sousuo span {
+    float: left;
+    margin-left: 0.18rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.content img {
+    vertical-align: middle;
+    width: 0.28rem;
+    height: 0.28rem;
+    margin-left: 1.3rem;
+    margin-top: 0.14rem;
+    float: left;
+}
+
+/* 轮播 */
+header .swiper-container {
+    width: 100%;
+    height: 3.8rem;
+}
+#lunboIdIn img{
+    width: 7.50rem;
+    height: 3.80rem;
+    border-top: 1px solid #eeeff3;
+}
+
+/* 推荐，海报，文章 */
+.allGoods {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+.wrapper01 {
+    position: relative;
+    height: .78rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: 0.01rem solid #eeeff3;
+    background: #fff;
+}
+.wrapper01 .scroller {
+    position: absolute;
+    background: #fff;
+}
+.wrapper01 .scroller .firstLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 0.86rem;
+}
+.wrapper01 .scroller .secondLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 1.3rem;
+}
+.wrapper01 .scroller .thirdlyLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 0.86rem;
+}
+
+.wrapper01 .scroller li a {
+    color: #666666;
+    margin-right: .86rem;
+}
+.wrapper01 .scroller li.cur a {
+    display: inline-block;
+    width: 0.74rem;
+    height: 0.78rem;
+    color: #fc4949;
+    border-bottom: 0.04rem solid #fc4949;
+}
+
+/* 推荐内容 */
+.allGoods_list {
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+}
+.allGoods_list ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.allGoods_list ul .information{
+    width: 100%;
+}
+.allGoods_list ul .information .matter{
+    width: 100%;
+    height: 0.66rem;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.allGoods_list ul .information .matter .radical img{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.26rem;
+
+}
+.allGoods_list ul .information .matter .radical .character{
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.66rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+/* 素材----文字 */
+.allGoods_list ul .information .description{
+    width: 6.80rem;
+    font-size: 0.26rem;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    margin-left: 0.26rem;
+    margin-top: 0.5rem;
+   line-height: 0.39rem;
+}
+.allGoods_list ul .information .sign{
+    font-size: 0.26rem;
+    color: #3b5fcd;
+    margin-left: 0.26rem;
+    margin-top: 0.24rem;
+
+}
+.allGoods_list ul .information  .drawing img{
+  width: 3.18rem;
+  height: 5rem;
+  margin-left: 0.26rem;
+  margin-top: 0.3rem;
+}
+.allGoods_list ul .information .finally{
+    width: 100%;
+    height: 1.14rem;
+}
+.allGoods_list ul .information .finally .result{
+    font-size: 0.24rem;
+    color: #999999;
+    float: left;
+    margin-left: 0.26rem;
+    margin-top: 0.46rem;
+}
+.allGoods_list ul .information .finally  .right-result {
+    float: right;
+    margin-right: 0.26rem;
+}
+.allGoods_list ul .information .finally  .right-result a{
+    display: inline-block;
+    width: 1.76rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-radius:0.5rem;
+    border: 0.02rem solid #fc4949; 
+    margin-top: 0.35rem;
+    overflow: hidden;
+    text-align: center;
+
+}
+.allGoods_list ul .information .finally  .right-result a img{
+    width: 0.24rem;
+    height: 0.28rem;
+    float: left;
+    margin-left: 0.17rem;
+    margin-top: 0.13rem;
+}
+.allGoods_list ul .information .finally  .right-result a .sense{
+    font-size: 0.24rem;
+    color: #fc4949;
+    float: left;
+    margin-left: 0.1rem;
+}
+.allGoods_list ul .information .sk{
+    width: 100%;
+    height: 0.2rem;
+    background: #f4f5f9;
+}
+
+
+/* 首页素材第二个样式 */
+.allGoods_list ul .information .specification{
+   font-size: 0.26rem;
+   color: #333333;
+   margin-left: 0.26rem;
+   margin-top: 0.5rem;
+}
+.allGoods_list ul .information .descriptions{
+    width: 6.80rem;
+    font-size: 0.26rem;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    margin-left: 0.26rem;
+    margin-top: 0.2rem;
+   line-height: 0.39rem;
+}
+
+
+/* 首页素材第三个样式 */
+.allGoods_list ul .information .chaining{
+    width: 6.98rem;
+    height: 1rem;
+    margin-left:0.26rem;
+    margin-top: 0.3rem;
+    background: #f4f5f9;
+    overflow: hidden;
+
+}
+.allGoods_list ul .information .chaining img{
+    width: 0.86rem;
+    height: 0.85rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.08rem;
+
+}
+.allGoods_list ul .information .chaining .windFarm{
+    width: 5.31rem;
+    height: 0.70rem;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    color: #666666;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.14rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.allGoods_list ul .information .fashionSeller{
+    width: 5.8rem;
+    margin-bottom: 0.31rem;
+    margin-left: 0.26rem;
+    overflow: hidden;
+
+}
+.allGoods_list ul .information .fashionSeller img{
+    width: 1.80rem;
+    height: 1.80rem;
+    float: left;
+    margin-left: 0.12rem;
+    margin-top: 0.12rem;
+ 
+
+}
+
+
+/* 消息，客服，刷新 */
+.redraw{
+    position: fixed;
+    right: .3rem;
+    bottom: 2rem;
+}
+.oneImg{
+    position: fixed;
+    right: .3rem;
+    bottom: 3rem;
+
+}
+ .oneImg img{
+   width: 0.78rem;
+   height: 0.78rem;
+   border-radius: 50%;
+
+}
+.twoImg{
+    position: fixed;
+    right: .3rem;
+    bottom: 2rem;
+}
+.twoImg img{
+    width: 0.78rem;
+    height: 0.78rem;
+    border-radius: 50%;
+ 
+ }
+ .three{
+    position: fixed;
+    right: .3rem;
+    bottom: 1rem;
+ }
+.three  img{
+    width: 0.78rem;
+    height: 0.78rem;
+    border-radius: 50%;
+ 
+ }
+
+ /* 消息上的小红点 */
+ .reddot{
+     width: 0.25rem;
+     height: 0.25rem;
+     border-radius: 50%;
+     position: fixed;
+     right: .4rem;
+     bottom: 3.5rem;
+     background: #fc4949;
+     font-size: 0.16rem;
+     color: #ffffff;
+     text-align: center;
+     line-height: 0.25rem;
+ }
+
+
+
+ /* 微信     qq  弹框 */
+ .warm_title{
+	text-align: center;
+}
+.warm_title h4{
+	margin: 0;
+	font-size: .3rem;
+	color: #333;
+	margin-top:.34rem;
+}
+.warm_title p{
+	margin: 0;
+	font-size: .28rem;
+	color: #333;
+	margin-bottom: .34rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.warm_title .wrt{
+    width: 1.24rem;
+    height: 1.24rem;
+    border-radius: 50%;
+    margin-left: 2.5rem;
+    margin-top: .3rem;
+}
+.warm_title .wrt img{
+    width: 1.24rem;
+    height: 1.24rem;
+    border-radius: 50%;
+}
+.warm_choose a{
+	display: inline-block;
+	width: 4rem;
+	height: .8rem;
+	line-height: .8rem;
+	text-align: center;
+    font-size: .28rem;
+    border-radius: 10rem;
+    background: #fc4949;
+    margin-left: 1.2rem;
+    margin-bottom: 0.4rem;
+    
+}
+.warm_login{
+	color: #fff;
+}
+
+/* 已安装qq和微信的弹框 */
+.shade{
+    background-color: rgba(0,0,0,.5);
+    pointer-events: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 19891014;
+}
+
+.warm-t{
+    width: 100%;
+    height: 2.9rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    border-top: 1px solid #f3f6f5;
+}
+.warm-t ul {
+    width: 100%;
+    height: 2.9rem;
+}
+.warm-t ul li {
+    width: 25%;
+    height: 2.21rem;
+    line-height: 0.15rem;
+    font-size: 0.28rem;
+    text-align: center;
+    float: left;
+}
+.warm-t ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 2.21rem;
+    font-size: 0.28rem;
+    color: #666;
+    line-height: 0.4rem;
+}
+.warm-t ul li a .footer_span {
+    width: 0.98rem;
+    height: 0.98rem;
+    margin-top: 0.43rem;
+}
+.footer_span img {
+    width: 100%;
+    height: 100%;
+}
+.warm-t ul  .followingGraph{
+    width: 100%;
+    height: 0.69rem;
+}
+
+.warm-t ul  .followingGraph a{
+    display: inline-block;
+    width: 100%;
+    height: 0.69rem;
+    line-height: 0.4rem;
+
+}
+.warm-t ul  .followingGraph a .followingGraph-p{
+    width: 0.3rem;
+    height: 0.28rem;
+}

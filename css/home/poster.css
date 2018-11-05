@@ -1,0 +1,238 @@
+
+
+/* 头部 */
+header {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+.title_top {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 1rem;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
+.title_top a.title_top_first {
+    width: 32%;
+    height: 0.85rem;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+.title_top .hea_img {
+    width: 0.18rem;
+    height: 0.32rem;
+    vertical-align: middle;
+}
+.title_top span {
+    width: 32%;
+    height: 0.88rem;
+    float: left;
+    font-size: 0.34rem;
+}
+/* 内容 */
+.main{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: 0.88rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.bigIcon img{
+    width: 100%;
+    height: 2.5rem;
+
+}
+
+
+/* 推荐，海报，文章 */
+.allGoods {
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+}
+.wrapper01 {
+    position: relative;
+    height: .78rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    border-bottom: 0.01rem solid #eeeff3;
+    background: #fff;
+}
+.wrapper01 .scroller {
+    position: absolute;
+    background: #fff;
+}
+.wrapper01 .scroller .firstLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 0.86rem;
+}
+.wrapper01 .scroller .secondLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 1.3rem;
+}
+.wrapper01 .scroller .thirdlyLi{
+    height: .78rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .78rem;
+    margin-left: 0.86rem;
+}
+
+.wrapper01 .scroller li a {
+    color: #666666;
+    margin-right: .86rem;
+}
+.wrapper01 .scroller li.cur a {
+    display: inline-block;
+    width: 0.74rem;
+    height: 0.78rem;
+    color: #fc4949;
+    border-bottom: 0.04rem solid #fc4949;
+}
+
+
+/* 推荐内容 */
+.allGoods_list {
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+}
+.allGoods_list ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.allGoods_list ul .information{
+    width: 100%;
+}
+.allGoods_list ul .information .matter{
+    width: 100%;
+    height: 0.66rem;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.allGoods_list ul .information .matter .radical img{
+    width: 0.66rem;
+    height: 0.66rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.26rem;
+
+}
+.allGoods_list ul .information .matter .radical .character{
+    font-size: 0.26rem;
+    color: #333333;
+    line-height: 0.66rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+/* 素材----文字 */
+.allGoods_list ul .information .description{
+    width: 6.80rem;
+    font-size: 0.26rem;
+    color: #666666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    margin-left: 0.26rem;
+    margin-top: 0.5rem;
+   line-height: 0.39rem;
+}
+.allGoods_list ul .information .sign{
+    font-size: 0.26rem;
+    color: #3b5fcd;
+    margin-left: 0.26rem;
+    margin-top: 0.24rem;
+
+}
+.allGoods_list ul .information  .drawing img{
+  width: 3.18rem;
+  height: 5rem;
+  margin-left: 0.26rem;
+  margin-top: 0.3rem;
+}
+.allGoods_list ul .information .finally{
+    width: 100%;
+    height: 1.14rem;
+}
+.allGoods_list ul .information .finally .result{
+    font-size: 0.24rem;
+    color: #999999;
+    float: left;
+    margin-left: 0.26rem;
+    margin-top: 0.46rem;
+}
+.allGoods_list ul .information .finally  .right-result {
+    float: right;
+    margin-right: 0.26rem;
+}
+.allGoods_list ul .information .finally  .right-result a{
+    display: inline-block;
+    width: 1.76rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    border-radius:0.5rem;
+    border: 0.02rem solid #fc4949; 
+    margin-top: 0.35rem;
+    overflow: hidden;
+    text-align: center;
+
+}
+.allGoods_list ul .information .finally  .right-result a img{
+    width: 0.24rem;
+    height: 0.28rem;
+    float: left;
+    margin-left: 0.17rem;
+    margin-top: 0.13rem;
+}
+.allGoods_list ul .information .finally  .right-result a .sense{
+    font-size: 0.24rem;
+    color: #fc4949;
+    float: left;
+    margin-left: 0.1rem;
+}
+.allGoods_list ul .information .sk{
+    width: 100%;
+    height: 0.2rem;
+    background: #f4f5f9;
+}
+
+
+/* 历史图库 */
+.redraw{
+    position: fixed;
+    right: .3rem;
+    bottom: 8.1rem;
+}
+.redraw>a img{
+    width: 1.80rem;
+    height: 0.54rem;
+}

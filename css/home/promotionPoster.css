@@ -1,0 +1,133 @@
+/* 头部 */
+header {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+
+.title_top {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 1rem;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.title_top a.title_top_first {
+    width: 32%;
+    height: 0.85rem;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.title_top span {
+    width: 32%;
+    height: 0.88rem;
+    float: left;
+    font-size: 0.34rem;
+}
+
+.title_top .hea_img {
+    width: 0.18rem;
+    height: 0.32rem;
+    vertical-align: middle;
+}
+
+/* 内容区 */
+.main {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top:0.88rem;
+}
+/* banner */
+.bigIcon img {
+    width: 100%;
+    height: 2.5rem;
+}
+
+
+/* table键 */
+.allGoods {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+}
+.wrapper01 {
+    position: relative;
+    height: .78rem;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0  0.38rem;
+    border-bottom:0.01rem solid #eeeff3;
+}
+.wrapper01 .scroller {
+    position: absolute;
+}
+.wrapper01 .scroller li {
+    height: .73rem;
+    float: left;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .73rem;
+}
+.wrapper01 .scroller li a {
+    color: #666666;
+    margin-right: .56rem;
+}
+
+/* 图片展区 */
+.allGoods_list {
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+}
+.allGoods_list ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0.3rem 0;
+    
+}
+
+#list #retr.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1000;
+}
+
+.allGoods_list ul li {
+    width: 2.14rem;
+    height: 2.14rem;
+    float: left;
+    margin-left: .26rem;
+}
+
+.wrapper01 .scroller li.cur a {
+    display: inline-block;
+    width: 0.74rem;
+    height: 0.78rem;
+    color: #fc4949;
+    border-bottom: 0.04rem solid #fc4949;
+}
+.allGoods_list ul li img{
+    width: 100%;
+    height: 100%;
+    border-radius: .08rem;
+}
+
+.clearfix {
+}

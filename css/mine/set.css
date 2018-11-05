@@ -1,0 +1,117 @@
+.main{
+	width: 100%;
+	margin-top: 1rem;
+}
+.main_cont{
+	width: 100%;
+}
+.cont_top{
+	width: 100%;
+	height: 3.4rem;
+	text-align: center;
+}
+.cont_top img{
+	width: 1.36rem;
+	height: 1.36rem;
+	margin-top: .7rem;
+}
+.cont_top p{
+	font-size: .36rem;
+	color: #333;
+	margin-top: .24rem;
+}
+/*中间部分*/
+.list_content_shop{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.list_content_shop ul{
+	width: 100%;
+	height: auto;
+}
+.list_content_shop li{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	border-bottom: 1px solid #F4F4F4;
+}
+a.first_a{
+	display: inline-block;
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	color: #333;
+	font-size: 0.28rem;
+}
+.first_a span.title_content{
+	float: left;
+	margin-left: 0.3rem;
+}
+.first_a span.title_content img{
+	width: .38rem;
+	height: .40rem;
+	vertical-align:middle;
+}
+.first_a span.title_content span{
+	margin-left: .3rem;
+}
+.first_a span.back_span{
+	height: 1rem;
+    float: right;
+    line-height: 1.1rem;
+	margin-right: 0.24rem;
+}
+.back_span img{
+	width: 0.12rem;
+	height: 0.24rem;
+}
+.cont_bot{
+	width: 100%;
+	margin-top: .86rem;
+	padding: 0 .26rem;
+}
+.cont_bot button{
+	width: 6.9rem;
+	height: .8rem;
+	color: #fff;
+	line-height: .8rem;
+	text-align: center;
+	background: #fd4848;
+	font-size: .32rem;
+	border-radius: .08rem;
+}
+/*弹框*/
+.warm_title{
+	text-align: center;
+	border-bottom: .01rem solid #ebebeb;
+}
+.warm_title h4{
+	margin: 0;
+	font-size: .3rem;
+	color: #333;
+	margin-top:.34rem;
+}
+.warm_title p{
+	margin: 0;
+	font-size: .26rem;
+	color: #666;
+	margin-bottom: .34rem;
+}
+.warm_choose a{
+	display: inline-block;
+	width: 49%;
+	height: .8rem;
+	line-height: .8rem;
+	text-align: center;
+	font-size: .32rem;
+}
+.warm_cancel{
+	color: #666;
+	float: right;
+}
+.warm_login{
+	color: #fd4848;
+	float: left;
+	border-right: .01rem solid #ebebeb;
+}
